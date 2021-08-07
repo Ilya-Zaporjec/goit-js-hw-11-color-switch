@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  transition: linear 150ms;
+}
+.container {
+  background-color: teal;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 150px;
+  height: 200px;
+  width: 400px;
+  box-shadow: 0 0 10px 6px tomato;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+button {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
